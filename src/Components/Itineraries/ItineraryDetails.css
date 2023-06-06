@@ -1,0 +1,157 @@
+.itinerary-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: flex;
+}
+
+.itinerary-details {
+  padding: 30px;
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  width: 100%;
+  padding-bottom: 56.25%;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.itinerary-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.itinerary-details p {
+  margin-bottom: 10px;
+}
+
+.text {
+  white-space: break-spaces;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 10px;
+  padding-left: 20px;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.text button {
+  background: none;
+  border: none;
+  color: green;
+  cursor: pointer;
+}
+
+.comment-section {
+  width: 100%;
+}
+
+.comment-section h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.comment-section form {
+  margin-bottom: 10px;
+}
+
+.comment-section textarea {
+  width: 100%;
+  height: 80px;
+  resize: vertical;
+  margin-bottom: 10px;
+}
+
+.comment-section button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.comment-list .comment {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.book-package-container {
+  width: 120%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (min-width: 58px) {
+  .itinerary-details-container {
+    align-items: flex-start;
+  }
+
+  .itinerary-details {
+    margin-bottom: 0;
+  }
+
+  .image-container {
+    height: auto;
+    padding-bottom: 0;
+  }
+
+  .image-container img {
+    position: static;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 300px;
+  }
+
+  .itinerary-details h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+  }
+
+  .itinerary-details p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .comment-section h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .comment-section textarea {
+    height: 100px;
+    margin-bottom: 15px;
+  }
+
+  .comment-section button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+
+  .comment-list .comment {
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+}
+.image-container img {
+  width: 110%;
+
+  height: 400px;
+}

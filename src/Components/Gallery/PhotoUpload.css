@@ -1,0 +1,31 @@
+.PhotoUploader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.PhotoUploader h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.PhotoUploader input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.PhotoUploader button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.PhotoUploader button:hover {
+  background-color: #0056b3;
+}

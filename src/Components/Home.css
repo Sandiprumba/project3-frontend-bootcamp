@@ -1,0 +1,45 @@
+.hero-banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 0px;
+  background-color: rgb(60, 110, 126);
+  margin-top: -1rem;
+  text-align: center;
+}
+.hero-banner h1 {
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 60px;
+  color: rgb(240, 234, 234);
+}
+.hero-banner h2 {
+  margin-top: -25px;
+  font-size: 50px;
+  color: rgb(233, 233, 130);
+  max-width: 150%;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+.featured-itineraries {
+  display: flex;
+  align-items: center;
+  margin-top: -2;
+  height: 500px;
+  background-color: rgb(67, 67, 231);
+}
+.button-container {
+  font-size: 10em;
+  margin-top: -20px;
+  padding: 10px;
+  position: absolute;
+}
+
+.text-container {
+  color: blue;
+}
+
+.welcome-text {
+  margin: 30px;
+}

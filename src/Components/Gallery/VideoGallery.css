@@ -1,0 +1,45 @@
+.videoGallery {
+  max-width: 1460px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #e6f4ff;
+}
+
+.videoGallery video {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.videoGallery video:hover {
+  transform: scale(1.12);
+}
+
+.travel-videos-Container {
+  background-color: #e6f4ff;
+  padding: 100px;
+  text-align: center;
+  margin-top: -90px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  background-position: center;
+  color: #00a896;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  font-weight: italic;
+  margin-bottom: 50px;
+  margin-top: -45px;
+  color: #a8006d;
+}

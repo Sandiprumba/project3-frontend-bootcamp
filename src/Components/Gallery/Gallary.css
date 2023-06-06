@@ -1,0 +1,45 @@
+.photoGallery {
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #e6f4ff;
+}
+
+.photoGallery img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.photoGallery img:hover {
+  transform: scale(1.1);
+}
+
+.travel-photos-container {
+  background-color: #e6f4ff;
+  padding: 100px;
+  text-align: center;
+  margin-top: -75px;
+}
+
+.title {
+  font-size: 5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: -30px;
+  background-position: center;
+  color: #e6f4ff;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  font-weight: italic;
+  margin-bottom: 40px;
+  margin-top: -25px;
+  color: #634c5b;
+}
